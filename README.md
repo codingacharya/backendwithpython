@@ -10,4 +10,4 @@ step 5: client = MongoClient("mongodb://localhost:27017/")  # Local MongoDB
 
 step 6: client = MongoClient("mongodb+srv://your_username:your_password@cluster.mongodb.net/")
 
-step 7: streamlit run backend.py
+step 7: streamlit run frontend.py
