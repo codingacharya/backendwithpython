@@ -6,7 +6,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # MongoDB Connection
 client = MongoClient("mongodb://localhost:27017/")
 db = client["thirupathi"]
-users_collection = db["users"]
+users_collection = db["staff"]
 
 # User Authentication Functions
 def signup(username, password):
