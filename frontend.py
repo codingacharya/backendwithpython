@@ -80,122 +80,12 @@ else:
 if st.session_state.get("logged_in"):
     if menu == "Home":
         st.header("Indian culture in last 5000 years")
-        st.write("Indian culture has evolved over 5000 years, making it one of the world's oldest and most diverse civilizations. It has been shaped by various influences, including indigenous traditions, foreign invasions, religions, and socio-political changes. Below is an overview of its evolution:")
+        st.write("This book is about the history and culture of India 5000 years ago. It aims at reaching out to the common man, from young students to grown-ups, who are not aware of the various discoveries brought forth through excavations since Independence. To illustrate the point, students from 1950s onwards have not been taught about the discoveries in the field of archaeology and associated sciences, which have disproved the theory of Aryan Invasion. Therefore, they still say that the Aryans invaded India. As a corollary, they are learning that the Aryans threw out the Dravidians who, according to the Britishers, inhabited the Indus valley till the Aryans came. They still talk about it being the ?Indus Valley Civilization? despite the fact the ?centre of gravity? of this civilization was the Sarasvati valley. The fault lies in our teaching system; reluctance to update the school books and books at university level which continue to ?parrot? the thinking of 1950s. The authorities that be need to accept the mass of professional papers, books and evidences of archaeology, anthropology, geology, archaeo-botany, etc. to set right our history which has been much maligned by the colonial rulers and their proteges that have ruled the Indian teaching systems. Section I of the book deals extensively with the richness of the Indus-Sarasvati Civilization: its origin, growth and maturity, its town-planning, trade and commerce, artistic creations, etc. Section II exposes the mind-set of the colonial rulers and their agenda to demean Indian civilization. Each one of their theories has been struck down, not in the least by Indian archaeologists but also by professionals all over the world. This Section demonstrates in clear terms that the Vedic people were neither ?invaders? nor ?immigrants? but indigenous and they themselves were the authors of the Indus-Sarasvati Civilization.")
 
-st.write("
 
-### **1️⃣ Indus Valley Civilization (c. 3300–1300 BCE)**
-- One of the world's earliest urban civilizations, flourishing in present-day India and Pakistan.
-- Cities like Harappa and Mohenjo-Daro had advanced drainage, trade, and urban planning.
-- Evidence of art, pottery, and possibly early religious practices related to nature worship.
-
----
-
-### **2️⃣ Vedic Age (c. 1500–500 BCE)**
-- The arrival of the Aryans led to the composition of the **Vedas**, the oldest Hindu scriptures.
-- Development of **Sanskrit** as a scholarly and religious language.
-- Emergence of the caste system and early Hindu rituals.
-- Concept of **karma, dharma, and moksha** took shape.
-
----
-
-### **3️⃣ Maurya & Gupta Empires (c. 321 BCE–550 CE)**
-- **Mauryan Empire** (Chandragupta Maurya, Emperor Ashoka) spread Buddhism and centralized governance.
-- **Gupta Empire** is known as the **Golden Age of India**, excelling in science, mathematics, literature (Kalidasa), and temple architecture.
-- Hinduism, Buddhism, and Jainism flourished.
-
----
-
-### **4️⃣ Medieval India & Islamic Influence (c. 700–1700 CE)**
-- Arrival of **Islamic rulers** led to the Delhi Sultanate (1206) and Mughal Empire (1526).
-- Architectural marvels like **Taj Mahal** and Indo-Islamic art flourished.
-- Bhakti and Sufi movements promoted spiritual devotion and harmony.
-- Persian and Urdu languages became part of Indian culture.
-
----
-
-### **5️⃣ Colonial Era & Independence Struggle (c. 1757–1947)**
-- **British rule** led to economic exploitation, but also introduced modern education and infrastructure.
-- **Mahatma Gandhi's non-violent movement** led to India's independence in 1947.
-- A mix of resistance and cultural exchanges influenced India’s legal, political, and linguistic landscapes.
-
----
-
-### **6️⃣ Modern India (1947–Present)**
-- Post-independence, India embraced **secularism, democracy, and rapid economic growth**.
-- The IT boom, Bollywood, yoga, and global recognition of Indian traditions.
-- Social movements for gender equality, caste upliftment, and environmental conservation.
-
----
-
-### **Future of Indian Culture (Next 5000 Years?)**
-- A blend of **tradition and technology** with AI, digital economy, and space exploration.
-- Continued **global influence** in spirituality, cuisine, and philosophy.
-- Efforts to preserve **heritage sites** while embracing modernization.
-
-India’s culture has always adapted while keeping its core values intact—**diversity, spirituality, and resilience**. 🚀🇮🇳")
     elif menu == "About":
         st.header("About India")
-        st.write("### **India: A Land of Diversity and Heritage** 🇮🇳  
-
-India is a vast and diverse country with a rich history, vibrant culture, and a rapidly growing economy. It is the world's largest democracy and the second-most populous country.  
-
----
-
-## **1️⃣ General Information**  
-- **Official Name**: Republic of India  
-- **Capital**: New Delhi  
-- **Largest City**: Mumbai  
-- **Official Languages**: Hindi & English (22 recognized languages in total)  
-- **Currency**: Indian Rupee (₹)  
-- **Population**: Over 1.4 billion (as of 2024)  
-- **Government**: Federal parliamentary democratic republic  
-
----
-
-## **2️⃣ Geography & Climate** 🌍  
-- **Area**: 3.28 million sq. km (7th largest country in the world)  
-- **Borders**: Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar  
-- **Regions**: Himalayas (North), Gangetic Plains, Deccan Plateau, Coastal regions  
-- **Climate**: Ranges from tropical in the south to alpine in the Himalayas  
-
----
-
-## **3️⃣ History & Civilization** 🏛️  
-- **Indus Valley Civilization (3300–1300 BCE)**: One of the world’s oldest civilizations  
-- **Vedic Period**: Birth of Hinduism, Sanskrit, and early philosophy  
-- **Maurya & Gupta Empires**: The Golden Age of India  
-- **Medieval Period**: Mughal Empire, Islamic influences, and Indo-Persian culture  
-- **British Rule (1858–1947)**: Colonization, economic exploitation, and social reforms  
-- **Independence (1947)**: Led by Mahatma Gandhi and the freedom movement  
-
----
-
-## **4️⃣ Culture & Traditions** 🎭  
-- **Religions**: Hinduism, Islam, Christianity, Sikhism, Buddhism, Jainism  
-- **Festivals**: Diwali, Holi, Eid, Christmas, Navratri, Pongal, Durga Puja  
-- **Cuisine**: Known for its spices, diverse flavors—Biryani, Dosa, Paneer, Butter Chicken  
-- **Art & Music**: Classical (Bharatanatyam, Kathak), Bollywood, folk dances  
-- **Yoga & Spirituality**: Birthplace of Yoga, Ayurveda, and meditation  
-
----
-
-## **5️⃣ Economy & Development** 💰  
-- **5th largest economy in the world** (GDP-wise)  
-- **IT & Software Hub**: Cities like Bengaluru lead in tech innovation  
-- **Agriculture & Industry**: Major producer of wheat, rice, textiles, pharmaceuticals  
-- **Space & Science**: ISRO’s Chandrayaan & Mangalyaan missions put India on the global space map  
-
----
-
-## **6️⃣ Modern India & Future Prospects** 🚀  
-- Growing infrastructure, metro cities, and smart technology adoption  
-- Advancements in AI, space exploration, and clean energy  
-- Leadership in global diplomacy & cultural influence  
-
-India is a **blend of ancient traditions and modern aspirations**—a country that continues to evolve while maintaining its unique identity. 🇮🇳🔥  
-
-Let me know if you need details on any specific topic! 🚀")
+        st.write("Anatomically modern humans first arrived on the Indian subcontinent between 73,000 and 55,000 years ago.[1] The earliest known human remains in South Asia date to 30,000 years ago. Sedentariness began in South Asia around 7000 BCE; by 4500 BCE, settled life had spread,[2] and gradually evolved into the Indus Valley Civilisation, one of three early cradles of civilisation in the Old World,[3][4] which flourished between 2500 BCE and 1900 BCE in present-day Pakistan and north-western India. Early in the second millennium BCE, persistent drought caused the population of the Indus Valley to scatter from large urban centres to villages. Indo-Aryan tribes moved into the Punjab from Central Asia in several waves of migration. The Vedic Period of the Vedic people in northern India (1500–500 BCE) was marked by the composition of their extensive collections of hymns (Vedas). The social structure was loosely stratified via the varna system, incorporated into the highly evolved present-day Jāti system. The pastoral and nomadic Indo-Aryans spread from the Punjab into the Gangetic plain. Around 600 BCE, a new, interregional culture arose; then, small chieftaincies (janapadas) were consolidated into larger states (mahajanapadas). Second urbanization took place, which came with the rise of new ascetic movements and religious concepts,[5] including the rise of Jainism and Buddhism. The latter was synthesized with the preexisting religious cultures of the subcontinent, giving rise to Hinduism.Indian cultural influence (Greater India) Timeline of Indian history Chandragupta Maurya overthrew the Nanda Empire and established the first great empire in ancient India, the Maurya Empire. India's Mauryan king Ashoka is widely recognised for his historical acceptance of Buddhism and his attempts to spread nonviolence and peace across his empire. The Maurya Empire would collapse in 185 BCE, on the assassination of the then-emperor Brihadratha by his general Pushyamitra Shunga. Shunga would form the Shunga Empire in the north and north-east of the subcontinent, while the Greco-Bactrian Kingdom would claim the north-west and found the Indo-Greek Kingdom. Various parts of India were ruled by numerous dynasties, including the Gupta Empire, in the 4th to 6th centuries CE. This period, witnessing a Hindu religious and intellectual resurgence is known as the Classical or Golden Age of India. Aspects of Indian civilisation, administration, culture, and religion spread to much of Asia, which led to the establishment of Indianised kingdoms in the region, forming Greater India.[6][5] The most significant event between the 7th and 11th centuries was the Tripartite struggle centred on Kannauj. Southern India saw the rise of multiple imperial powers from the middle of the fifth century. The Chola dynasty conquered southern India in the 11th century. In the early medieval period, Indian mathematics, including Hindu numerals, influenced the development of mathematics and astronomy in the Arab world, including the creation of the Hindu-Arabic numeral system.[7] Islamic conquests made limited inroads into modern Afghanistan and Sindh as early as the 8th century,[8] ")
     elif menu == "Contact":
         st.header("Contact Us")
         st.write("Email: kandadithirupathi4@gmail.com")
