@@ -80,9 +80,9 @@ else:
 if st.session_state.get("logged_in"):
     if menu == "Home":
         st.header("Indian culture in last 5000 years")
-        st.write("Indian culture has evolved over 5000 years, making it one of the world's oldest and most diverse civilizations. It has been shaped by various influences, including indigenous traditions, foreign invasions, religions, and socio-political changes. Below is an overview of its evolution:
+        st.write("Indian culture has evolved over 5000 years, making it one of the world's oldest and most diverse civilizations. It has been shaped by various influences, including indigenous traditions, foreign invasions, religions, and socio-political changes. Below is an overview of its evolution:")
 
----
+st.write("
 
 ### **1️⃣ Indus Valley Civilization (c. 3300–1300 BCE)**
 - One of the world's earliest urban civilizations, flourishing in present-day India and Pakistan.
